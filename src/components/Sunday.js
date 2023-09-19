@@ -9,6 +9,8 @@ import muz3 from "../кыргызский-оозкомуз_(muzmo.su).mp3";
 import muz4 from "../нурак-комузкууу_(muzmo.su).mp3";
 import muz5 from "../kyrgyzskaya-narodnaya-muzyka-esimde.mp3";
 import "../components/DefaultValue.css";
+import muz6 from "../kyrgyz_music_34.mp3";
+import muz7 from "../Детская - Учат В Школе.mp3";
 
 const daysOfWeek = [
   "Monday",
@@ -58,30 +60,30 @@ function Sunday({disableAudioDays, setDisableAudioDays}) {
     return savedInputs
       ? JSON.parse(savedInputs)
       : {
-        input1: "08:00",
-        input2: "08:45",
-        input3: "08:50",
-        input4: "09:35",
-        input5: "09:50",
-        input6: "10:25",
-        input7: "10:35",
-        input8: "11:20",
-        input9: "11:25",
-        input10: "12:10",
-        input11: "12:15",
-        input12: "13:00",
-        input13: "13:15",
-        input14: "14:00",
-        input15: "14:05",
-        input16: "14:50",
-        input17: "14:55",
-        input18: "15:40",
-        input19: "15:50",
-        input20: "16:35",
-        input21: "16:40",
-        input22: "17:25",
-        input23: "17:30",
-        input24: "18:15",
+          input1: "08:30",
+          input2: "09:15",
+          input3: "09:20",
+          input4: "10:05",
+          input5: "10:10",
+          input6: "10:55",
+          input7: "11:05",
+          input8: "11:50",
+          input9: "11:55",
+          input10: "12:40",
+          input11: "12:45",
+          input12: "13:30",
+          input13: "13:35",
+          input14: "14:20",
+          input15: "14:25",
+          input16: "15:10",
+          input17: "15:20",
+          input18: "16:05",
+          input19: "16:10",
+          input20: "16:55",
+          input21: "17:00",
+          input22: "17:45",
+          input23: "17:50",
+          input24: "18:35",
         };
   });
 
@@ -135,6 +137,8 @@ function Sunday({disableAudioDays, setDisableAudioDays}) {
             <option value={muz3}>Аудио 3</option>
             <option value={muz4}>Аудио 4</option>
             <option value={muz5}>Аудио 5</option>
+            <option value={muz6}>Аудио 6</option>
+            <option value={muz7}>Аудио 7</option>
           </select>
           <div className="ParentValue">
             <div className="defaultValue">

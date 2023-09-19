@@ -8,7 +8,7 @@ const Gimn = () => {
   useEffect(() => {
     const currentDate = new Date();
     const targetTime = new Date(currentDate);
-    targetTime.setHours(7,55,0); 
+    targetTime.setHours(8,31,0);
 
 
     let timeUntilNextAnthem = targetTime - currentDate;

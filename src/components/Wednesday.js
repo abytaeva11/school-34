@@ -9,6 +9,8 @@ import muz3 from "../кыргызский-оозкомуз_(muzmo.su).mp3";
 import muz4 from "../нурак-комузкууу_(muzmo.su).mp3";
 import muz5 from "../kyrgyzskaya-narodnaya-muzyka-esimde.mp3";
 import "../components/DefaultValue.css";
+import muz6 from "../kyrgyz_music_34.mp3";
+import muz7 from "../Детская - Учат В Школе.mp3";
 
 const daysOfWeek = [
   "Sunday",
@@ -58,62 +60,33 @@ function Wednesday({disableAudioDays, setDisableAudioDays}) {
     return savedInputs
       ? JSON.parse(savedInputs)
       : {
-        
-          input1: "08:00",
-          input2: "08:40",
-          input3: "08:45",
-          input4: "09:25",
-          input5: "09:30",
-          input6: "10:10",
-          input7: "10:20",
-          input8: "11:00",
-          input9: "11:05",
-          input10: "11:45",
-          input11: "11:50",
-          input12: "12:30",
-          input13: "13:15",
-          input14: "13:55",
-          input15: "14:00",
-          input16: "14:40",
-          input17: "14:45",
-          input18: "15:25",
-          input19: "15:35",
-          input20: "16:15",
-          input21: "16:20",
-          input22: "17:00",
-          input23: "17:05",
-          input24: "17:45",
+          input1: "08:30",
+          input2: "09:15",
+          input3: "09:20",
+          input4: "10:05",
+          input5: "10:10",
+          input6: "10:55",
+          input7: "11:05",
+          input8: "11:50",
+          input9: "11:55",
+          input10: "12:40",
+          input11: "12:45",
+          input12: "13:30",
+          input13: "13:35",
+          input14: "14:20",
+          input15: "14:25",
+          input16: "15:10",
+          input17: "15:20",
+          input18: "16:05",
+          input19: "16:10",
+          input20: "16:55",
+          input21: "17:00",
+          input22: "17:45",
+          input23: "17:50",
+          input24: "18:35",
         };
   });
-  //                       defaultValue={"08:00"}
-  //                       defaultValue={"08:40"}
-  //                       defaultValue={"08:45"}
-  //                       defaultValue={"09:25"}               
-  //                       defaultValue={"09:30"}
-  //                       defaultValue={"10:10"}                   
-  //                       defaultValue={"10:20"}                  
-  //                       defaultValue={"11:00"}          
-  //                       defaultValue={"11:05"}                 
-  //                       defaultValue={"11:45"}
-  //                       defaultValue={"11:50"}
-  //                       defaultValue={"12:30"}               
-  //                       defaultValue={"13:15"}                     
-  //                       defaultValue={"13:55"}      
-  //                       defaultValue={"14:00"}         
-  //                       defaultValue={"14:40"}            
-  //                       defaultValue={"14:45"}          
-  //                       defaultValue={"15:25"}
-  //                       defaultValue={"15:35"}
-  //           
-  //                       defaultValue={"16:15"}
-  //               
-  //                       defaultValue={"16:20"}
-  //               
-  //                       defaultValue={"17:00"}
-  //                  
-  //                       defaultValue={"17:05"}
-  //            
-  //                       defaultValue={"17:45"}
+
 
   useEffect(() => {
     localStorage.setItem("wednesdayInputs", JSON.stringify(wednesdayInputs));
@@ -168,6 +141,8 @@ function Wednesday({disableAudioDays, setDisableAudioDays}) {
             <option value={muz3}>Аудио 3</option>
             <option value={muz4}>Аудио 4</option>
             <option value={muz5}>Аудио 5</option>
+            <option value={muz6}>Аудио 6</option>
+            <option value={muz7}>Аудио 7</option>
           </select>
           <div className="ParentValue">
             <div className="defaultValue">
