@@ -203,14 +203,14 @@ function Friday({disableAudioDays, setDisableAudioDays}) {
          defaultValue={fridayInputs.input7}
                       onFocus={() => handleInputFocus(6)}
                        onChange={(e) => handleInputChange("input7", e)}
-                     
+
                     />
                     <input
                       type="time"
               defaultValue={fridayInputs.input8}
                       onFocus={() => handleInputFocus(7)}
                        onChange={(e) => handleInputChange("input8", e)}
-                     
+
                     />
                   </div>
                   <div className="grid">
@@ -219,14 +219,14 @@ function Friday({disableAudioDays, setDisableAudioDays}) {
        defaultValue={fridayInputs.input9}
                       onFocus={() => handleInputFocus(8)}
                        onChange={(e) => handleInputChange("input9", e)}
-                     
+
                     />
                     <input
                       type="time"
                  defaultValue={fridayInputs.input10}
                       onFocus={() => handleInputFocus(9)}
                        onChange={(e) => handleInputChange("input10", e)}
-                     
+
                     />
                   </div>
                   <div className="grid">
@@ -235,125 +235,125 @@ function Friday({disableAudioDays, setDisableAudioDays}) {
              defaultValue={fridayInputs.input11}
                       onFocus={() => handleInputFocus(10)}
                        onChange={(e) => handleInputChange("input11", e)}
-                     
+
                     />
                     <input
                       type="time"
               defaultValue={fridayInputs.input12}
                       onFocus={() => handleInputFocus(11)}
                        onChange={(e) => handleInputChange("input12", e)}
-                     
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="defaultValue">
-              <h3 style={{
-                margin:"10px 0",
-              }}>2-смена</h3>
-              <div className="parentGrid">
-                <div className="">
-                  <div className="grid">
-                    <input
-                      type="time"
-          defaultValue={fridayInputs.input13}
-                      onFocus={() => handleInputFocus(12)}
-                       onChange={(e) => handleInputChange("input13", e)}
-                     
-                    />
-                    <input
-                      type="time"
-             defaultValue={fridayInputs.input14}
-                      onFocus={() => handleInputFocus(13)}
-                       onChange={(e) => handleInputChange("input14", e)}
-                     
-                    />
-                  </div>
-                  <div className="grid">
-                    <input
-                      type="time"
-                defaultValue={fridayInputs.input15}
-                      onFocus={() => handleInputFocus(14)}
-                       onChange={(e) => handleInputChange("input15", e)}
-                     
-                    />
-                    <input
-                      type="time"
-               defaultValue={fridayInputs.input16}
-                      onFocus={() => handleInputFocus(15)}
-                       onChange={(e) => handleInputChange("input16", e)}
-                     
-                    />
-                  </div>
-                  <div className="grid">
-                    <input
-                      type="time"
-        defaultValue={fridayInputs.input17}
-                      onFocus={() => handleInputFocus(16)}
-                       onChange={(e) => handleInputChange("input17", e)}
-                     
-                    />
-                    <input
-                      type="time"
-        defaultValue={fridayInputs.input18}
-                      onFocus={() => handleInputFocus(17)}
-                       onChange={(e) => handleInputChange("input18", e)}
-                     
                     />
                   </div>
                 </div>
-                <div className="parentGrid">
-                  <div className="grid">
-                    <input
-                      type="time"
-                 defaultValue={fridayInputs.input19}
-                      onFocus={() => handleInputFocus(18)}
-                       onChange={(e) => handleInputChange("input19", e)}
-                     
-                    />
-                    <input
-                      type="time"
-       defaultValue={fridayInputs.input20}
-                      onFocus={() => handleInputFocus(19)}
-                       onChange={(e) => handleInputChange("input20", e)}
-                     
-                    />
-                  </div>
-                  <div className="grid">
-                    <input
-                      type="time"
-                 defaultValue={fridayInputs.input21}
-                      onFocus={() => handleInputFocus(20)}
-                       onChange={(e) => handleInputChange("input21", e)}
-                     
-                    />
-                    <input
-                      type="time"
-                   defaultValue={fridayInputs.input22}
-                      onFocus={() => handleInputFocus(21)}
-                       onChange={(e) => handleInputChange("input22", e)}
-                     
-                    />
-                  </div>
-                  <div className="grid">
-                    <input
-                      type="time"
-              defaultValue={fridayInputs.input23}
-                      onFocus={() => handleInputFocus(22)}
-                       onChange={(e) => handleInputChange("input23", e)}
-                     
-                    />
-                    <input
-                      type="time"
-                     defaultValue={fridayInputs.input24}
-                      onFocus={() => handleInputFocus(23)}
-                       onChange={(e) => handleInputChange("input24", e)}
-                     
-                    />
-                  </div>
-                </div>
+       {/*       </div>*/}
+       {/*     </div>*/}
+
+       {/*     <div className="defaultValue">*/}
+       {/*       <h3 style={{*/}
+       {/*         margin:"10px 0",*/}
+       {/*       }}>2-смена</h3>*/}
+       {/*       <div className="parentGrid">*/}
+       {/*         <div className="">*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*   defaultValue={fridayInputs.input13}*/}
+       {/*               onFocus={() => handleInputFocus(12)}*/}
+       {/*                onChange={(e) => handleInputChange("input13", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*      defaultValue={fridayInputs.input14}*/}
+       {/*               onFocus={() => handleInputFocus(13)}*/}
+       {/*                onChange={(e) => handleInputChange("input14", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*         defaultValue={fridayInputs.input15}*/}
+       {/*               onFocus={() => handleInputFocus(14)}*/}
+       {/*                onChange={(e) => handleInputChange("input15", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*        defaultValue={fridayInputs.input16}*/}
+       {/*               onFocus={() => handleInputFocus(15)}*/}
+       {/*                onChange={(e) => handleInputChange("input16", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/* defaultValue={fridayInputs.input17}*/}
+       {/*               onFocus={() => handleInputFocus(16)}*/}
+       {/*                onChange={(e) => handleInputChange("input17", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/* defaultValue={fridayInputs.input18}*/}
+       {/*               onFocus={() => handleInputFocus(17)}*/}
+       {/*                onChange={(e) => handleInputChange("input18", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*         </div>*/}
+       {/*         <div className="parentGrid">*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*          defaultValue={fridayInputs.input19}*/}
+       {/*               onFocus={() => handleInputFocus(18)}*/}
+       {/*                onChange={(e) => handleInputChange("input19", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*defaultValue={fridayInputs.input20}*/}
+       {/*               onFocus={() => handleInputFocus(19)}*/}
+       {/*                onChange={(e) => handleInputChange("input20", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*          defaultValue={fridayInputs.input21}*/}
+       {/*               onFocus={() => handleInputFocus(20)}*/}
+       {/*                onChange={(e) => handleInputChange("input21", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*            defaultValue={fridayInputs.input22}*/}
+       {/*               onFocus={() => handleInputFocus(21)}*/}
+       {/*                onChange={(e) => handleInputChange("input22", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*           <div className="grid">*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*       defaultValue={fridayInputs.input23}*/}
+       {/*               onFocus={() => handleInputFocus(22)}*/}
+       {/*                onChange={(e) => handleInputChange("input23", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*             <input*/}
+       {/*               type="time"*/}
+       {/*              defaultValue={fridayInputs.input24}*/}
+       {/*               onFocus={() => handleInputFocus(23)}*/}
+       {/*                onChange={(e) => handleInputChange("input24", e)}*/}
+       {/*              */}
+       {/*             />*/}
+       {/*           </div>*/}
+       {/*         </div>*/}
               </div>
             </div>
           </div>
