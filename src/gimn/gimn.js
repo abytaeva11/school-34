@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import muz4 from "../gimn-kirgizii-kyrgyz-respublikasynyn-mamlekettik-gimni.mp3";
+import muz4 from "../music/гимн-кр.mp3";
 
 const Gimn = () => {
   const [isNationalAnthemPlaying, setNationalAnthemPlaying] = useState(false);
@@ -8,7 +8,7 @@ const Gimn = () => {
   useEffect(() => {
     const currentDate = new Date();
     const targetTime = new Date(currentDate);
-    targetTime.setHours(8,31,0);
+    targetTime.setHours(8,26,0);
 
 
     let timeUntilNextAnthem = targetTime - currentDate;
@@ -47,8 +47,8 @@ const Gimn = () => {
         <p style={{
           fontSize:"36px",
           color:"white",
-          marginLeft:"1140px",
-          marginTop:"-650px",
+          marginLeft:"1040px",
+          marginTop:"-550px",
           position:"absolute",
         
         }}>...</p>

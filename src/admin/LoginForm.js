@@ -7,7 +7,7 @@ const LoginForm = ({ login, isAuthenticated }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (email === 'mashrapovtolonbai34@gmail.com' && password === 'mashrapov34') {
+            if (email === 'payz9@gmail.com' && password === 'saltanat1958') {
             login();
         } else {
             alert('Неправильный электронный адрес или пароль');

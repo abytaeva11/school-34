@@ -6,7 +6,7 @@ import "../components/Modal.css"
 import Voice from "../Voice/Voice";
 
 // import Clock from "../Clock/Clock";
-import img from "../MRSUN.png";
+import img from "../assets/img/MRSUN.png";
 
 
 import Days from "../ui/Days";

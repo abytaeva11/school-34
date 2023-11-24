@@ -71,7 +71,7 @@ import VideoBg from '../global/VideoBg';
               {/*  alt=""*/}
               {/*/>*/}
               {/*<div className="school-name">*/}
-                <h3 className="school-name">Төлөнбай Машрапов атындагы <br/>№34 орто мектеби</h3>
+                <h3 className="school-name">Паяз атындагы <br/> №9   жалпы билим берүү мектеби</h3>
 
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-    import alertSound from "../../src/assets/img/zvuk-vozdushnaya-trevoga.mp3";
+    import alertSound from "../music/zvuk-vozdushnaya-trevoga.mp3";
 
 import  icons from "../assets/img/Remove-bg.ai_1689587547137.png"
 

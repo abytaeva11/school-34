@@ -3,14 +3,14 @@ import { useAppContext } from "../global/AppContext";
 import "../App.css";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { RiDeleteBinLine } from "react-icons/ri";
-import muz1 from "../assets/img/Мирбек Атабеков - Таласым.mp3";
-import muz2 from "../Асылбек Насирдинов - Улуу көч.mp3";
-import muz3 from "../кыргызский-оозкомуз_(muzmo.su).mp3";
-import muz4 from "../нурак-комузкууу_(muzmo.su).mp3";
-import muz5 from "../kyrgyzskaya-narodnaya-muzyka-esimde.mp3";
+import muz1 from "../music/Мирбек Атабеков - Таласым.mp3";
+import muz2 from "../music/Асылбек Насирдинов - Улуу көч.mp3";
+import muz3 from "../music/кыргызский-оозкомуз_(muzmo.su).mp3";
+import muz4 from "../music/нурак-комузкууу_(muzmo.su).mp3";
+import muz5 from "../music/kyrgyzskaya-narodnaya-muzyka-esimde.mp3";
 import "../components/DefaultValue.css";
-import muz6 from "../kyrgyz_music_34.mp3";
-import muz7 from "../Детская - Учат В Школе.mp3";
+import muz6 from "../music/kyrgyz_music_34.mp3";
+import muz7 from "../music/Детская - Учат В Школе.mp3";
 
 import "../components/DefaultValue.css";
 
