@@ -22,7 +22,7 @@ const Gimn = () => {
 
     const currentDate = new Date();
     const targetTime = new Date(currentDate);
-    targetTime.setHours(15, 41, 0); 
+    targetTime.setHours(8, 30, 0); 
     let timeUntilNextAnthem = targetTime - currentDate;
     if (timeUntilNextAnthem < 0) {
       timeUntilNextAnthem += 24 * 60 * 60 * 1000; 
